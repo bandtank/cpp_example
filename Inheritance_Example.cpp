@@ -1,17 +1,15 @@
 #include <iostream>
 
-using namespace std;
-
 class Fruit {
   public:
-    void setColor(string color) {
+    void setColor(std::string color) {
       this->color = color;
     }
     void setSweetness(int sweetness) {
       this->sweetness = sweetness;
     }
 
-    string getColor() {
+    std::string getColor() {
       return color;
     }
     int getSweetness() {
@@ -19,7 +17,7 @@ class Fruit {
     }
 
   protected:
-    string color;
+    std::string color;
     int sweetness;
 };
 
@@ -82,12 +80,12 @@ int main() {
   grape.setSweetness(5);
   grape.setSeed(false);
 
-  cout << "This apple is " << apple.getColor() << " and has " << apple.getSeedNum() << " seeds.\n";
-  cout << "This pear is " << pear.getColor() << " and has " << pear.getSeedNum() << " seeds.\n";
+  std::cout << "This apple is " << apple.getColor() << " and has " << apple.getSeedNum() << " seeds.\n";
+  std::cout << "This pear is " << pear.getColor() << " and has " << pear.getSeedNum() << " seeds.\n";
 
   if (grape.getSeed()) {
-    cout << "This grape is " << grape.getColor() << " and has a seed.\n";
+    std::cout << "This grape is " << grape.getColor() << " and has a seed.\n";
   } else {
-    cout << "This grape is " << grape.getColor() << " and is seedless.\n";
+    std::cout << "This grape is " << grape.getColor() << " and is seedless.\n";
   }
 }
