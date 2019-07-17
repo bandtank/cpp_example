@@ -3,8 +3,8 @@
 
 class Fruit {
 public:
-  void setColor(std::string color);
-  void setSweetness(int sweetness);
+  void setColor(std::string hue);
+  void setSweetness(int sugar);
 
   std::string getColor();
   int getSweetness();

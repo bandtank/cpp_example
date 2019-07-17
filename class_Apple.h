@@ -3,7 +3,7 @@
 
 class Apple : public Fruit {
   public:
-    void setSeedNum(int seedNum);
+    void setSeedNum(int num);
     int getSeedNum();
 
   protected:

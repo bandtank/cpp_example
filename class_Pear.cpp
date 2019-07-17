@@ -1,7 +1,7 @@
 #include "class_Pear.h"
 
-void Pear::setSeedNum(int seedNum) {
-  this->seedNum = seedNum;
+void Pear::setSeedNum(int num) {
+  seedNum = num;
 }
 
 int Pear::getSeedNum() {
