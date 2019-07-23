@@ -1,5 +1,5 @@
 #pragma once
-#include "class_Fruit.h"
+#include "Fruit.hpp"
 
 class Apple : public Fruit {
   public:

@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "class_Fruit.h"
-#include "class_Apple.h"
-#include "class_Pear.h"
-#include "class_Grape.h"
+#include "Fruit.hpp"
+#include "Apple.hpp"
+#include "Pear.hpp"
+#include "Grape.hpp"
 
 int main() {
   Apple apple;

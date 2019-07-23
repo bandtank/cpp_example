@@ -1,4 +1,4 @@
-#include "class_Fruit.h"
+#include "Fruit.hpp"
 
 void Fruit::setColor(std::string hue) {
   color = hue;

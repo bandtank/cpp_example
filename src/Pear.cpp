@@ -1,4 +1,4 @@
-#include "class_Pear.h"
+#include "Pear.hpp"
 
 void Pear::setSeedNum(int num) {
   seedNum = num;

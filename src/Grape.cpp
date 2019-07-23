@@ -1,4 +1,4 @@
-#include "class_Grape.h"
+#include "Grape.hpp"
 
 void Grape::setSeed(bool grapeSeed) {
   seed = grapeSeed;
